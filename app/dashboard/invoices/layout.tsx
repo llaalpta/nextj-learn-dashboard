@@ -1,12 +1,12 @@
 import React, { ReactNode } from "react";
 
-export const InvoicesLayout = ({ children }: { children: ReactNode }) => {
+const InvoicesLayout = ({ children }: { children: ReactNode }) => {
   return (
     <section>
-      Esto es el layout de INVOICES - en InvocesLayout
+      Esto es el layout del dashboard:
       {children}
     </section>
   );
 };
 
-export default InvoicesLayout;
+export default InvoicesLayout
