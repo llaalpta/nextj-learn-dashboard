@@ -8,4 +8,3 @@ export default function InvoicesLayout({ children }: { children: ReactNode }): J
     </section>
   );
 };
-

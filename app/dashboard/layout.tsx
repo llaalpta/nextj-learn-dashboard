@@ -1,7 +1,7 @@
 import React, { ReactNode } from "react";
 import SideNav from "../ui/dashboard/sidenav";
 
-export const DashboardLayout = ({ children }: { children: ReactNode }) => {
+export default function DashboardLayout({ children }: { children: ReactNode }): JSX.Element {
   return (
     <div className="flex h-screen flex-col md:flex-row md:overflow-hidden">
       <div className="w-full flex-none md:w-64">
@@ -12,5 +12,3 @@ export const DashboardLayout = ({ children }: { children: ReactNode }) => {
     </div>
   );
 };
-
-export default DashboardLayout;
