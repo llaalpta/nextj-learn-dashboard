@@ -1,6 +1,6 @@
 import React, { ReactNode } from "react";
 
-const InvoicesLayout = ({ children }: { children: ReactNode }) => {
+export default function InvoicesLayout({ children }: { children: ReactNode }): JSX.Element {
   return (
     <section>
       Esto es el layout del dashboard:
@@ -9,4 +9,3 @@ const InvoicesLayout = ({ children }: { children: ReactNode }) => {
   );
 };
 
-export default InvoicesLayout
